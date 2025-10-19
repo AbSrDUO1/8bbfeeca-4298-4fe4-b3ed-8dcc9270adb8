@@ -6,6 +6,7 @@ import FeatureCardTwo from '@/components/sections/feature/FeatureCardTwo';
 import TextAbout from '@/components/sections/about/TextAbout';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBase from '@/components/sections/footer/FooterBase';
+import { Zap } from 'lucide-react';
 
 const assetMap = [
   { "id": "heroImage", "url": "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_346q1PwyWBLFgxn5R5gWYFVRO0Y/tmp/cozy-pizzeria-1760911502710-a8e692d7.jpg", "alt": "cozy pizzeria" },
@@ -51,9 +52,9 @@ export default function Home() {
           <FeatureCardTwo
             title="Our Menu"
             features={[
-              { title: "Margherita", description: "Classic with mozzarella & basil.", icon: "Zap", button: { text: "Learn More", href: "#" } },
-              { title: "Pepperoni", description: "Spicy salami and mozzarella.", icon: "Zap", button: { text: "Learn More", href: "#" } },
-              { title: "Veggie Delight", description: "Loaded with fresh vegetables.", icon: "Zap", button: { text: "Learn More", href: "#" } }
+              { title: "Margherita", description: "Classic with mozzarella & basil.", icon: Zap, button: { text: "Learn More", href: "#" } },
+              { title: "Pepperoni", description: "Spicy salami and mozzarella.", icon: Zap, button: { text: "Learn More", href: "#" } },
+              { title: "Veggie Delight", description: "Loaded with fresh vegetables.", icon: Zap, button: { text: "Learn More", href: "#" } }
             ]}
           />
         </div>
