@@ -31,7 +31,7 @@ export default function Home() {
             { name: "About Us", id: "about" },
             { name: "Contact", id: "contact" }
           ]}
-          brandName="Pizzeria"
+          brandName="qwfqwfqwf"
         />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
@@ -41,7 +41,7 @@ export default function Home() {
             description="Discover the taste of authentic Italian pizza crafted with love."
             imageSrc={assetMap.find(a => a.id === "heroImage")?.url ?? "/public/images/placeholder.webp"}
             buttons={[
-              { text: "Order Now", href: "contact" },
+              { text: "qwfqwfqwf", href: "contact" },
               { text: "See Menu", href: "features" }
             ]}
           />
@@ -52,9 +52,9 @@ export default function Home() {
           <FeatureCardTwo
             title="Our Menu"
             features={[
-              { title: "Margherita", description: "Classic with mozzarella & basil.", icon: Zap, button: { text: "Learn More", href: "#" } },
+              { title: "Margherita", description: "weqffqfqwf", icon: Zap, button: { text: "Learn More", href: "#" } },
               { title: "Pepperoni", description: "Spicy salami and mozzarella.", icon: Zap, button: { text: "Learn More", href: "#" } },
-              { title: "Veggie Delight", description: "Loaded with fresh vegetables.", icon: Zap, button: { text: "Learn More", href: "#" } }
+              { title: "qwfqwfqwf", description: "Loaded with fresh vegetables.", icon: Zap, button: { text: "Learn More", href: "#" } }
             ]}
           />
         </div>
